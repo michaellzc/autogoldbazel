@@ -47,15 +47,16 @@ http_archive(
     ],
 )
 
-# local_repository(
-#     name = "com_github_hexops_autogold_v2",
-#     path = "/Users/michael/Code/michaellzc/autogold",
-# )
+# Use local repo
+local_repository(
+    name = "com_github_hexops_autogold_v2",
+    path = "/Users/michael/Code/michaellzc/autogold",
+)
 
-# local_repository(
-#     name = "com_github_hexops_valast",
-#     path = "/Users/michael/Code/michaellzc/valast",
-# )
+local_repository(
+    name = "com_github_hexops_valast",
+    path = "/Users/michael/Code/michaellzc/valast",
+)
 
 # Go toolchain setup
 load("@io_bazel_rules_go//go:deps.bzl", "go_register_toolchains", "go_rules_dependencies")

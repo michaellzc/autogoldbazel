@@ -1,0 +1,9 @@
+&version.Version{semver: &version.Version{
+	segments: []int64{
+		1,
+		2,
+		3,
+	},
+	si:       3,
+	original: "1.2.3",
+}}

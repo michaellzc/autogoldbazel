@@ -1,0 +1,4 @@
+configure:
+  languages:
+    go: true
+    protobuf: true
